@@ -11,6 +11,7 @@
 
 html {
 	scroll-behavior: smooth;
+	// color-scheme: light dark;
 }
 
 pre {
@@ -28,8 +29,23 @@ pre {
 // Page Template Containers
 //-----------------------------------------
 .site-main {
+
 	.entry-header,
 	.entry-footer {
 		@apply container;
 	}
+}
+
+body {
+	font-family: serif;
+	font-size: 1.2rem;
+	line-height: 1.25;
+}
+
+img,
+video,
+svg {
+	max-width: 100%;
+	display: block;
+	@apply mt-20 mb-20;
 }

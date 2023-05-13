@@ -19,9 +19,9 @@
     max-width: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .site-header > .site-header-content {
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .site-header .site-description {
@@ -109,9 +109,9 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .footer-navigation .menu {
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 

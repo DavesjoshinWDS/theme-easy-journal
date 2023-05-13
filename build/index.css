@@ -546,10 +546,10 @@ pre {
     max-width: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 
   .container {
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .screen-reader-text {
@@ -602,9 +602,9 @@ pre {
     max-width: 100%;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-code{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .wp-block-code{
@@ -628,9 +628,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-freeform{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -652,9 +652,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-heading{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -694,9 +694,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-html{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -718,9 +718,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-image{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -752,9 +752,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-list{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -793,9 +793,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-pullquote{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -824,9 +824,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-quote{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -855,9 +855,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-spacer{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -875,9 +875,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-table{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -971,9 +971,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-gallery{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1027,9 +1027,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-paragraph{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1048,9 +1048,9 @@ pre {
     max-width: 100%;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .entry-content > .wp-block-paragraph{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .entry-content > .wp-block-paragraph{
@@ -1071,9 +1071,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-code{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1098,9 +1098,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-freeform{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1122,9 +1122,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-heading{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1164,9 +1164,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-html{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1188,9 +1188,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-image{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1222,9 +1222,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-list{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1263,9 +1263,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-pullquote{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1294,9 +1294,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-quote{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1325,9 +1325,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-spacer{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1345,9 +1345,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-table{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1441,9 +1441,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-gallery{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1497,9 +1497,9 @@ pre {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .wp-block-paragraph{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1518,9 +1518,9 @@ pre {
     max-width: 100%;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .entry-content > .wp-block-paragraph{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .entry-content > .wp-block-paragraph{
@@ -1564,11 +1564,26 @@ pre{
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .site-main .entry-header,
 .site-main .entry-footer{
-    max-width: 1200px;
+    max-width: 1000px;
   }
+}
+
+body {
+  font-family: serif;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+  display: block;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 textarea,
@@ -1755,9 +1770,9 @@ label{
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .pagination-container{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -1783,9 +1798,9 @@ label{
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
   .comments-area{
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
