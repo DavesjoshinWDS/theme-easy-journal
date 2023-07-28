@@ -40,6 +40,41 @@ body {
 	font-family: serif;
 	font-size: 1.2rem;
 	line-height: 1.25;
+	background-image: url(../images/checker-bkg.png);
+	background-repeat: repeat;
+	background-size: 4px;
+
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	li {
+		color: $ej-color-dark;
+	}
+}
+
+
+[class^='hl'] {
+	padding: 0 8px;
+}
+
+.hl-yellow {
+	background-color: $ej-highlight-yellow;
+}
+
+.hl-pink {
+	background-color: $ej-highlight-pink;
+}
+
+.hl-blue {
+	background-color: $ej-highlight-blue;
+}
+
+.hl-green {
+	background-color: $ej-highlight-green;
 }
 
 img,
@@ -48,4 +83,8 @@ svg {
 	max-width: 100%;
 	display: block;
 	@apply mt-20 mb-20;
+}
+
+main#main {
+	padding-top: 20px;
 }

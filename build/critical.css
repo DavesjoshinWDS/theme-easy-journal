@@ -1,36 +1,6 @@
 /*!***************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/svg-transform-loader/encode-query.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/critical.scss ***!
   \***************************************************************************************************************************************************************************************************************/
-.site-header {
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.1;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-.site-header > .site-header-content {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-@media (min-width: 100%) {
-  .site-header > .site-header-content {
-    max-width: 100%;
-  }
-}
-@media (min-width: 1000px) {
-  .site-header > .site-header-content {
-    max-width: 1000px;
-  }
-}
-.site-header .site-description {
-  text-decoration-line: none;
-}
-.site-header .site-branding a {
-  text-decoration-line: none;
-}
-
 .navigation-menu {
   display: none;
 }

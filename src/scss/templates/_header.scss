@@ -1,0 +1,22 @@
+//--------------------------------------------------------------
+// Global Site Header
+//--------------------------------------------------------------
+.site-header {
+    background-color: $ej-light;
+    border-bottom: 1px solid $ej-medium;
+    @apply py-12;
+
+    >.site-header-content {
+        @apply container;
+    }
+
+    .site-description {
+        @apply no-underline;
+    }
+
+    .site-branding {
+        a {
+            @apply no-underline;
+        }
+    }
+}

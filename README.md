@@ -2,6 +2,12 @@
 
 A journal like theme with high readability.
 
+# Features/ToDos
+- Add highlight styles to WP WYSIWYG
+- Add ACF
+- Add Theme Options field group
+- Add ability to toggle between serif/san-serif for whole theme
+
 # wd_s <!-- omit in toc -->
 
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fwebdevstudios%2Fwd_s%2Fbadge%3Fref%3Dmain&style=flat)](https://github.com/WebDevStudios/wd_s/actions)

@@ -3,9 +3,12 @@
 //----------------------------------------
 
 .wp-block-code {
-	@apply container mb-16;
+	@apply container my-16;
 
 	code {
+		color: $ej-indexcard-blue;
+		background-color: $ej-light;
+		border: 1px solid $ej-indexcard-blue;
 		@apply p-16;
 	}
 }

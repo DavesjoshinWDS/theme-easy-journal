@@ -6,13 +6,13 @@
 	@apply block container;
 
 	ul {
-		&:not( .menu, .sub-menu ) {
-			@apply mb-16 list-disc list-inside;
+		&:not(.menu, .sub-menu) {
+			@apply my-16 list-disc list-inside;
 		}
 	}
 
 	ol {
-		@apply mb-16 list-decimal list-inside;
+		@apply my-16 list-decimal list-inside;
 	}
 
 	li li,
