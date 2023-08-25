@@ -62,6 +62,11 @@ body {
 	li {
 		color: $ej-color-dark;
 	}
+
+	mark {
+		background-color: $ej-highlight-yellow;
+		padding: 2px 6px;
+	}
 }
 
 
@@ -91,4 +96,17 @@ svg {
 	max-width: 100%;
 	display: block;
 	@apply mt-20 mb-20;
+}
+
+.wp-block-image {
+	.wp-element-caption {
+		@apply absolute p-10;
+		background: rgba($ej-light, 0.75);
+		color: $ej-color-dark;
+		width: 80%;
+		height: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 15px;
+	}
 }

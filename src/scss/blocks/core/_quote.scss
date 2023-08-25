@@ -4,12 +4,22 @@
 
 .wp-block-quote {
 	@apply container my-32;
+	color: $ej-color-dark;
+	border-left: 5px solid $ej-color-dark;
+
+	.wp-block-paragraph {
+		@apply p-0;
+	}
 
 	p {
-		@apply mb-16;
+		@apply text-4xl;
 	}
 
 	cite {
-		@apply not-italic;
+		@apply block not-italic pl-8;
+
+		&::before {
+			content: '- ';
+		}
 	}
 }

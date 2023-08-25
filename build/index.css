@@ -659,6 +659,10 @@ body h6,
 body li {
   color: #362118;
 }
+body mark {
+  background-color: #e6eb1d;
+  padding: 2px 6px;
+}
 
 [class^=hl] {
   padding: 0 8px;
@@ -687,6 +691,18 @@ svg {
   display: block;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.wp-block-image .wp-element-caption{
+  position: absolute;
+  padding: 0.625rem;
+  background: rgba(255, 251, 242, 0.75);
+  color: #362118;
+  width: 80%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
 }
 
 .wp-block-code{
@@ -941,12 +957,22 @@ svg {
 .wp-block-quote{
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: #362118;
+  border-left: 5px solid #362118;
+}
+.wp-block-quote .wp-block-paragraph{
+  padding: 0;
 }
 .wp-block-quote p{
-  margin-bottom: 1rem;
+  font-size: 1.625rem;
 }
 .wp-block-quote cite{
+  display: block;
+  padding-left: 0.5rem;
   font-style: normal;
+}
+.wp-block-quote cite::before {
+  content: "- ";
 }
 
 .wp-block-spacer{
@@ -1417,12 +1443,22 @@ svg {
 .wp-block-quote{
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: #362118;
+  border-left: 5px solid #362118;
+}
+.wp-block-quote .wp-block-paragraph{
+  padding: 0;
 }
 .wp-block-quote p{
-  margin-bottom: 1rem;
+  font-size: 1.625rem;
 }
 .wp-block-quote cite{
+  display: block;
+  padding-left: 0.5rem;
   font-style: normal;
+}
+.wp-block-quote cite::before {
+  content: "- ";
 }
 
 .wp-block-spacer{
