@@ -29,10 +29,18 @@ pre {
 // Page Template Containers
 //-----------------------------------------
 .site-main {
+	padding-top: 20px;
 
 	.entry-header,
 	.entry-footer {
 		@apply container;
+	}
+
+	article,
+	nav {
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -83,8 +91,4 @@ svg {
 	max-width: 100%;
 	display: block;
 	@apply mt-20 mb-20;
-}
-
-main#main {
-	padding-top: 20px;
 }

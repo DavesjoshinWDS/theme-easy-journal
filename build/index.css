@@ -113,7 +113,7 @@ kbd,
 samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
-  font-size: 0.85em; /* 2 */
+  font-size: 1em; /* 2 */
 }
 
 /*
@@ -611,6 +611,9 @@ pre{
   line-height: 1.5;
 }
 
+.site-main {
+  padding-top: 20px;
+}
 .site-main .entry-header,
 .site-main .entry-footer{
   width: 100%;
@@ -619,19 +622,23 @@ pre{
   padding-right: 1rem;
   padding-left: 1rem;
 }
-
 @media (min-width: 100%){
   .site-main .entry-header,
 .site-main .entry-footer{
     max-width: 100%;
   }
 }
-
 @media (min-width: 1000px){
   .site-main .entry-header,
 .site-main .entry-footer{
     max-width: 1000px;
   }
+}
+.site-main article,
+.site-main nav {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -680,10 +687,6 @@ svg {
   display: block;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-main#main {
-  padding-top: 20px;
 }
 
 .wp-block-code{
