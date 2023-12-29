@@ -6,7 +6,7 @@
 	@apply block container;
 
 	ul {
-		&:not(.menu, .sub-menu) {
+		&:not( .menu, .sub-menu ) {
 			@apply my-16 list-disc list-inside;
 		}
 	}

@@ -32,46 +32,50 @@
 
 	<header class="site-header">
 
-		<div class="site-header-content">
+		<div class="site-header-wrapper">
 
-			<div class="site-branding">
+			<div class="site-header-content">
 
-				<?php the_custom_logo(); ?>
+				<div class="site-branding">
 
-				<?php if ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+					<?php the_custom_logo(); ?>
+
+					<?php if ( is_front_page() && is_home() ) : ?>
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<?php else : ?>
+						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+					<?php endif; ?>
+
+					<?php
+
+					$easy_journal_description = get_bloginfo( 'description', 'display' );
+					if ( $easy_journal_description || is_customize_preview() ) :
+						?>
+						<p class="site-description"><?php echo esc_html( $easy_journal_description ); ?></p>
+					<?php endif; ?>
+
+				</div><!-- .site-branding -->
+
+				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'mobile' ) ) : ?>
+					<button type="button" class="off-canvas-open" aria-expanded="false" aria-label="<?php esc_attr_e( 'Open Menu', 'easy-journal' ); ?>"></button>
 				<?php endif; ?>
 
+			</div><!-- .site-header-content -->
+
+			<nav id="site-navigation" class="main-navigation navigation-menu" aria-label="<?php esc_attr_e( 'Main Navigation', 'easy-journal' ); ?>">
 				<?php
+				wp_nav_menu(
+					[
+						'fallback_cb'    => false,
+						'theme_location' => 'primary',
+						'menu_id'        => 'primary-menu',
+						'menu_class'     => 'menu dropdown container',
+						'container'      => false,
+					]
+				);
+				?>
+			</nav><!-- #site-navigation-->
 
-				$easy_journal_description = get_bloginfo( 'description', 'display' );
-				if ( $easy_journal_description || is_customize_preview() ) :
-					?>
-					<p class="site-description"><?php echo esc_html( $easy_journal_description ); ?></p>
-				<?php endif; ?>
-
-			</div><!-- .site-branding -->
-
-			<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'mobile' ) ) : ?>
-				<button type="button" class="off-canvas-open" aria-expanded="false" aria-label="<?php esc_attr_e( 'Open Menu', 'easy-journal' ); ?>"></button>
-			<?php endif; ?>
-
-		</div><!-- .site-header-content -->
-
-		<nav id="site-navigation" class="main-navigation navigation-menu" aria-label="<?php esc_attr_e( 'Main Navigation', 'easy-journal' ); ?>">
-			<?php
-			wp_nav_menu(
-				[
-					'fallback_cb'    => false,
-					'theme_location' => 'primary',
-					'menu_id'        => 'primary-menu',
-					'menu_class'     => 'menu dropdown container',
-					'container'      => false,
-				]
-			);
-			?>
-		</nav><!-- #site-navigation-->
+		</div>	
 
 	</header><!-- .site-header-->

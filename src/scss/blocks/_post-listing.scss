@@ -1,0 +1,16 @@
+//----------------------------------------
+// Block Name - Easy Journal Post Listing
+//----------------------------------------
+
+.ej-post-listing {
+	article {
+		h2 {
+			@apply text-[1.75rem] mt-[2.5rem] mb-[0.2rem];
+			@apply font-sans;
+
+			a {
+				@apply no-underline;
+			}
+		}
+	}
+}

@@ -3,10 +3,10 @@
 A journal like theme with high readability.
 
 # Features/ToDos
-- Add highlight styles to WP WYSIWYG
-- Add ACF
-- Add Theme Options field group
+- Finish header logo and nav placement
+- Add highlight colors to highlight component
 - Add ability to toggle between serif/san-serif for whole theme
+- Add copy code button to code element (js)
 
 # wd_s <!-- omit in toc -->
 

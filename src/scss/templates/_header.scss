@@ -2,21 +2,30 @@
 // Global Site Header
 //--------------------------------------------------------------
 .site-header {
-    background-color: $ej-light;
-    border-bottom: 1px solid $ej-medium;
-    @apply py-12;
+	background-color: $ej-light;
+	border-bottom: 1px solid $ej-medium;
+	@apply py-12;
 
-    >.site-header-content {
-        @apply container;
-    }
+	.site-header-wrapper {
+		@apply flex flex-row justify-between mx-auto;
+		max-width: 1200px;
 
-    .site-description {
-        @apply no-underline;
-    }
+		nav ul {
+			margin-bottom: 0;
+		}
+	}
 
-    .site-branding {
-        a {
-            @apply no-underline;
-        }
-    }
+	> .site-header-content {
+		// @apply container;
+	}
+
+	.site-description {
+		@apply no-underline;
+	}
+
+	.site-branding {
+		a {
+			@apply no-underline;
+		}
+	}
 }
