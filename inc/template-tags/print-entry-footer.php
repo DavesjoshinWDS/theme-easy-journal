@@ -32,19 +32,19 @@ function print_entry_footer() {
 		}
 	}
 
-	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
-		comments_popup_link( esc_attr__( 'Leave a comment', 'easy-journal' ), esc_attr__( '1 Comment', 'easy-journal' ), esc_attr__( '% Comments', 'easy-journal' ) );
-		echo '</span>';
-	}
+	// if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+	// 	echo '<span class="comments-link">';
+	// 	comments_popup_link( esc_attr__( 'Leave a comment', 'easy-journal' ), esc_attr__( '1 Comment', 'easy-journal' ), esc_attr__( '% Comments', 'easy-journal' ) );
+	// 	echo '</span>';
+	// }
 
-	edit_post_link(
-		sprintf(
-			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'easy-journal' ),
-			wp_kses_post( get_the_title( '<span class="screen-reader-text">"', '"</span>', false ) )
-		),
-		'<span class="edit-link">',
-		'</span>'
-	);
+	// edit_post_link(
+	// 	sprintf(
+	// 		/* translators: %s: Name of current post */
+	// 		esc_html__( 'Edit %s', 'easy-journal' ),
+	// 		wp_kses_post( get_the_title( '<span class="screen-reader-text">"', '"</span>', false ) )
+	// 	),
+	// 	'<span class="edit-link">',
+	// 	'</span>'
+	// );
 }

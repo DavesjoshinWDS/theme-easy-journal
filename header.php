@@ -40,19 +40,16 @@
 
 					<?php the_custom_logo(); ?>
 
-					<?php if ( is_front_page() && is_home() ) : ?>
+					<div class="site-branding-text">
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<?php else : ?>
-						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-					<?php endif; ?>
 
-					<?php
-
-					$easy_journal_description = get_bloginfo( 'description', 'display' );
+						<?
+						$easy_journal_description = get_bloginfo( 'description', 'display' );
 					if ( $easy_journal_description || is_customize_preview() ) :
 						?>
 						<p class="site-description"><?php echo esc_html( $easy_journal_description ); ?></p>
-					<?php endif; ?>
+						<?php endif; ?>
+					</div>
 
 				</div><!-- .site-branding -->
 

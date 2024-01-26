@@ -2,30 +2,51 @@
 // Global Site Header
 //--------------------------------------------------------------
 .site-header {
-	background-color: $ej-light;
+	background-color: $ej-white;
 	border-bottom: 1px solid $ej-medium;
 	@apply py-12;
 
 	.site-header-wrapper {
 		@apply flex flex-row justify-between mx-auto;
-		max-width: 1200px;
+		max-width: 1000px;
 
 		nav ul {
 			margin-bottom: 0;
 		}
 	}
 
-	> .site-header-content {
+	>.site-header-content {
 		// @apply container;
 	}
 
-	.site-description {
-		@apply no-underline;
-	}
-
 	.site-branding {
+		@apply flex flex-row;
+
 		a {
 			@apply no-underline;
+
+			img {
+				@apply my-0 w-auto h-[75px];
+			}
+		}
+
+		.site-branding-text {
+			@apply flex flex-col justify-end ml-[15px];
+
+			.site-title,
+			.site-description {
+				@apply mb-0 no-underline leading-none;
+			}
+
+			.site-title {
+				color: $ej-black;
+			}
+
+			.site-description {
+				background: -webkit-linear-gradient(0deg, $ej-primary, $ej-secondary);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
 		}
 	}
 }

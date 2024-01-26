@@ -3,7 +3,7 @@
 //----------------------------------------
 
 .wp-block-image {
-	@apply container relative;
+	@apply container relative px-0;
 
 	&.alignfull,
 	.is-resized,
@@ -15,7 +15,7 @@
 
 	&.alignfull {
 		figcaption {
-			width: calc( 100% - 2rem );
+			width: calc(100% - 2rem);
 		}
 	}
 }

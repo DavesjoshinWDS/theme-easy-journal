@@ -10,10 +10,10 @@
 	}
 
 	.menu {
-		@apply flex;
+		@apply flex flex-row h-full items-end;
 
-		> li {
-			&:not( :last-child ) {
+		>li {
+			&:not( :last-child) {
 				@apply mr-16;
 			}
 		}
@@ -23,7 +23,7 @@
 		@apply bg-white py-8 absolute shadow-md;
 
 		left: -999em;
-		top: theme( 'spacing.24' );
+		top: theme('spacing.24');
 		z-index: 99999;
 
 		li {
@@ -31,9 +31,10 @@
 		}
 
 		.menu-item-has-children {
+
 			&:hover,
 			&.focus {
-				> .sub-menu {
+				>.sub-menu {
 					left: 100%;
 				}
 			}
@@ -49,7 +50,7 @@
 
 	&:hover,
 	&.focus {
-		> .sub-menu {
+		>.sub-menu {
 			@apply left-0;
 		}
 	}
@@ -67,7 +68,7 @@
 		a {
 			@apply block w-full;
 
-			min-width: theme( 'width.192' );
+			min-width: theme('width.192');
 		}
 	}
 }
@@ -78,9 +79,9 @@
 .caret-down {
 	@apply block float-right h-full ml-8;
 
-	background: url( ../images/icons/caret-down.svg ) 50% 50% no-repeat;
+	background: url(../images/icons/caret-down.svg ) 50% 50% no-repeat;
 	background-size: 100%;
-	width: theme( 'spacing.8' );
+	width: theme('spacing.8');
 }
 
 //-----------------------------------------

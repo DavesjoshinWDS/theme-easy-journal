@@ -1,6 +1,11 @@
 //--------------------------------------------------------------
 // Post Elements
 //--------------------------------------------------------------
+.entry-title {
+	font-size: 1.8rem;
+	@apply mb-[5px];
+}
+
 .entry-meta {
 	@apply mb-16;
 }
@@ -19,8 +24,8 @@
 }
 
 .post-container {
-	&:not( :last-child ) {
-		@apply mb-16;
+	&:not( :last-child) {
+		@apply pb-[2rem] mb-[2rem] border-b border-gray-500;
 	}
 }
 
@@ -45,7 +50,7 @@
 }
 
 .updated {
-	&:not( .published ) {
+	&:not(.published) {
 		@apply hidden;
 	}
 }

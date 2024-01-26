@@ -5,7 +5,11 @@
 .wp-block-paragraph {
 	@apply block container;
 
-	.entry-content > & {
-		@apply block container;
+	.entry-content>& {
+		@apply block container px-0;
+
+		a {
+			color: $ej-primary;
+		}
 	}
 }
