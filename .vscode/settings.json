@@ -1,11 +1,15 @@
 {
-	"phpsab.executablePathCS": "./vendor/bin/phpcs",
-	"phpsab.executablePathCBF": "./vendor/bin/phpcbf",
+	"phpsab.executablePathCS": "vendor/squizlabs/php_codesniffer/bin/phpcs",
+	"phpsab.executablePathCBF": "vendor/squizlabs/php_codesniffer/bin/phpcbf",
 	"editor.formatOnSave": true,
 	"scss.validate": false,
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"intelephense.format.enable": false,
-	"intelephense.stubs": [ "acf", "wordpress" ]
+	"intelephense.stubs": [
+		"acf",
+		"wordpress"
+	],
+	"editor.tabSize": 2
 }

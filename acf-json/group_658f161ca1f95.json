@@ -1,46 +1,46 @@
 {
-    "key": "group_658f161ca1f95",
-    "title": "Easy Journal Block - Post Listing",
-    "fields": [
-        {
-            "key": "field_658f22c786c70",
-            "label": "Posts Limit",
-            "name": "posts_limit",
-            "type": "number",
-            "instructions": "Enter the max number of posts to be displayed.",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": 12,
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "min": 1,
-            "max": "",
-            "step": ""
-        }
-    ],
-    "location": [
-        [
-            {
-                "param": "block",
-                "operator": "==",
-                "value": "acf\/ej-post-listing"
-            }
-        ]
-    ],
-    "menu_order": 0,
-    "position": "normal",
-    "style": "default",
-    "label_placement": "top",
-    "instruction_placement": "label",
-    "hide_on_screen": "",
-    "active": true,
-    "description": "",
-    "show_in_rest": 0,
-    "modified": 1703879864
+	"key": "group_658f161ca1f95",
+	"title": "Easy Journal Block - Post Listing",
+	"fields": [
+		{
+			"key": "field_658f22c786c70",
+			"label": "Posts Limit",
+			"name": "posts_limit",
+			"type": "number",
+			"instructions": "Enter the max number of posts to be displayed.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": 12,
+			"placeholder": "",
+			"prepend": "",
+			"append": "",
+			"min": 1,
+			"max": "",
+			"step": ""
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "block",
+				"operator": "==",
+				"value": "acf/ej-post-listing"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": "",
+	"active": true,
+	"description": "",
+	"show_in_rest": 0,
+	"modified": 1703879864
 }

@@ -1,8 +1,9 @@
 <?php
 /**
  * Easy Journal - Post Listing Block
- * 
+ *
  * @package easy-journal
+ * @subpackage
  */
 
 use function davesjoshin\easy_journal\get_acf_fields;

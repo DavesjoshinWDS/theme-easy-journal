@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7645b6e8a376906ec512a2ae07326eab
+class ComposerStaticIniteb377bf979f6d6f3bc1c40e5db91c190
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -137,8 +137,8 @@ class ComposerStaticInit7645b6e8a376906ec512a2ae07326eab
         ),
         'WP_CLI\\' => 
         array (
-            0 => __DIR__ . '/..' . '/wp-cli/entity-command/src/WP_CLI',
-            1 => __DIR__ . '/..' . '/wp-cli/shell-command/src/WP_CLI',
+            0 => __DIR__ . '/..' . '/wp-cli/shell-command/src/WP_CLI',
+            1 => __DIR__ . '/..' . '/wp-cli/entity-command/src/WP_CLI',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -279,28 +279,28 @@ class ComposerStaticInit7645b6e8a376906ec512a2ae07326eab
     );
 
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/wp-cli/cache-command/src',
-        1 => __DIR__ . '/..' . '/wp-cli/checksum-command/src',
-        2 => __DIR__ . '/..' . '/wp-cli/config-command/src',
-        3 => __DIR__ . '/..' . '/wp-cli/core-command/src',
-        4 => __DIR__ . '/..' . '/wp-cli/cron-command/src',
-        5 => __DIR__ . '/..' . '/wp-cli/db-command/src',
-        6 => __DIR__ . '/..' . '/wp-cli/entity-command/src',
-        7 => __DIR__ . '/..' . '/wp-cli/eval-command/src',
-        8 => __DIR__ . '/..' . '/wp-cli/export-command/src',
-        9 => __DIR__ . '/..' . '/wp-cli/extension-command/src',
-        10 => __DIR__ . '/..' . '/wp-cli/import-command/src',
-        11 => __DIR__ . '/..' . '/wp-cli/language-command/src',
-        12 => __DIR__ . '/..' . '/wp-cli/media-command/src',
-        13 => __DIR__ . '/..' . '/wp-cli/package-command/src',
-        14 => __DIR__ . '/..' . '/wp-cli/rewrite-command/src',
-        15 => __DIR__ . '/..' . '/wp-cli/role-command/src',
-        16 => __DIR__ . '/..' . '/wp-cli/scaffold-command/src',
-        17 => __DIR__ . '/..' . '/wp-cli/search-replace-command/src',
-        18 => __DIR__ . '/..' . '/wp-cli/server-command/src',
-        19 => __DIR__ . '/..' . '/wp-cli/shell-command/src',
-        20 => __DIR__ . '/..' . '/wp-cli/super-admin-command/src',
-        21 => __DIR__ . '/..' . '/wp-cli/widget-command/src',
+        0 => __DIR__ . '/..' . '/wp-cli/widget-command/src',
+        1 => __DIR__ . '/..' . '/wp-cli/super-admin-command/src',
+        2 => __DIR__ . '/..' . '/wp-cli/shell-command/src',
+        3 => __DIR__ . '/..' . '/wp-cli/server-command/src',
+        4 => __DIR__ . '/..' . '/wp-cli/search-replace-command/src',
+        5 => __DIR__ . '/..' . '/wp-cli/scaffold-command/src',
+        6 => __DIR__ . '/..' . '/wp-cli/role-command/src',
+        7 => __DIR__ . '/..' . '/wp-cli/rewrite-command/src',
+        8 => __DIR__ . '/..' . '/wp-cli/package-command/src',
+        9 => __DIR__ . '/..' . '/wp-cli/media-command/src',
+        10 => __DIR__ . '/..' . '/wp-cli/language-command/src',
+        11 => __DIR__ . '/..' . '/wp-cli/import-command/src',
+        12 => __DIR__ . '/..' . '/wp-cli/export-command/src',
+        13 => __DIR__ . '/..' . '/wp-cli/eval-command/src',
+        14 => __DIR__ . '/..' . '/wp-cli/extension-command/src',
+        15 => __DIR__ . '/..' . '/wp-cli/cron-command/src',
+        16 => __DIR__ . '/..' . '/wp-cli/core-command/src',
+        17 => __DIR__ . '/..' . '/wp-cli/entity-command/src',
+        18 => __DIR__ . '/..' . '/wp-cli/db-command/src',
+        19 => __DIR__ . '/..' . '/wp-cli/config-command/src',
+        20 => __DIR__ . '/..' . '/wp-cli/checksum-command/src',
+        21 => __DIR__ . '/..' . '/wp-cli/cache-command/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -357,11 +357,11 @@ class ComposerStaticInit7645b6e8a376906ec512a2ae07326eab
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7645b6e8a376906ec512a2ae07326eab::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7645b6e8a376906ec512a2ae07326eab::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit7645b6e8a376906ec512a2ae07326eab::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7645b6e8a376906ec512a2ae07326eab::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit7645b6e8a376906ec512a2ae07326eab::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticIniteb377bf979f6d6f3bc1c40e5db91c190::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticIniteb377bf979f6d6f3bc1c40e5db91c190::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticIniteb377bf979f6d6f3bc1c40e5db91c190::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticIniteb377bf979f6d6f3bc1c40e5db91c190::$prefixesPsr0;
+            $loader->classMap = ComposerStaticIniteb377bf979f6d6f3bc1c40e5db91c190::$classMap;
 
         }, null, ClassLoader::class);
     }

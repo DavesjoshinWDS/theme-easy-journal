@@ -3,6 +3,7 @@
 A journal like theme with high readability.
 
 # Features/ToDos
+
 - Finish header logo and nav placement
 - Add highlight colors to highlight component
 - Add ability to toggle between serif/san-serif for whole theme
