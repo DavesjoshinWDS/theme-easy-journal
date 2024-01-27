@@ -4,7 +4,7 @@
 .site-header {
 	background-color: $ej-white;
 	border-bottom: 1px solid $ej-medium;
-	@apply py-12;
+	@apply py-12 px-[10px];
 
 	.site-header-wrapper {
 		@apply flex flex-row justify-between mx-auto;
@@ -39,13 +39,23 @@
 			}
 
 			.site-title {
+				@apply text-[1.875rem];
 				color: $ej-black;
+
+				@screen tablet-landscape {
+					@apply text-[2.5rem];
+				}
 			}
 
 			.site-description {
+				@apply text-xs;
 				background: -webkit-linear-gradient(0deg, $ej-primary, $ej-secondary);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
+
+				@screen tablet-landscape {
+					@apply text-lg;
+				}
 			}
 		}
 	}

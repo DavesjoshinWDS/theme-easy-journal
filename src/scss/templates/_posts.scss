@@ -27,6 +27,10 @@
 	&:not( :last-child) {
 		@apply pb-[2rem] mb-[2rem] border-b border-gray-500;
 	}
+
+	p {
+		@apply mb-[1rem];
+	}
 }
 
 .post-navigation {

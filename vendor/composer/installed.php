@@ -3,7 +3,7 @@
         'name' => 'david-walz/easy-journal',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'b1778792ad6866d0be74b68d972607910acc73be',
+        'reference' => '901b2dd3eb7be11c11cc6672036c416364e21f6c',
         'type' => 'wordpress-theme',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -94,7 +94,7 @@
         'david-walz/easy-journal' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b1778792ad6866d0be74b68d972607910acc73be',
+            'reference' => '901b2dd3eb7be11c11cc6672036c416364e21f6c',
             'type' => 'wordpress-theme',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

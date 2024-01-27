@@ -3,14 +3,12 @@
 // Cool.
 //--------------------------------------------------------------
 .navigation-menu {
-	@apply hidden;
-
-	@screen tablet-landscape {
-		@apply block;
-	}
-
 	.menu {
-		@apply flex flex-row h-full items-end;
+		@apply hidden;
+
+		@screen tablet-landscape {
+			@apply flex flex-row h-full items-end;
+		}
 
 		>li {
 			&:not( :last-child) {

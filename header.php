@@ -43,11 +43,12 @@
 					<div class="site-branding-text">
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-						<?
+						<?php 
 						$easy_journal_description = get_bloginfo( 'description', 'display' );
-					if ( $easy_journal_description || is_customize_preview() ) :
+						if ( $easy_journal_description || is_customize_preview() ) :
 						?>
-						<p class="site-description"><?php echo esc_html( $easy_journal_description ); ?></p>
+
+							<p class="site-description"><?php echo esc_html( $easy_journal_description ); ?></p>
 						<?php endif; ?>
 					</div>
 
