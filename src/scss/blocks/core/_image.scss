@@ -19,3 +19,15 @@
 		}
 	}
 }
+
+@screen max-tablet-portrait {
+	.entry-content {
+		.wp-block-image {
+
+			figure,
+			img {
+				@apply w-full;
+			}
+		}
+	}
+}

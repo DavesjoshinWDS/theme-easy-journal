@@ -111,7 +111,7 @@ svg {
 .wp-block-image {
 	.wp-element-caption {
 		@apply absolute p-10;
-		background: rgba($ej-black, 0.75);
+		background: rgba($ej-black, 1);
 		color: $ej-white;
 		width: 100%;
 		height: auto;
